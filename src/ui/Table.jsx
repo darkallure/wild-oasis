@@ -90,8 +90,10 @@ function Body({ data, render }) {
     </StyledBody>
   );
 }
+
 Table.Header = Header;
 Table.Row = Row;
 Table.Body = Body;
+Table.Footer = Footer;
 
 export default Table;
