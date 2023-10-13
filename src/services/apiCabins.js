@@ -1,4 +1,3 @@
-import { ca } from "date-fns/locale";
 import supabase, { supabaseUrl } from "./supabase";
 export async function getCabins() {
   const { data, error } = await supabase.from("cabins").select("*");

@@ -8,7 +8,6 @@ import { formatCurrency } from "../../utils/helpers";
 import { formatDistanceFromNow } from "../../utils/helpers";
 import Menus from "../../ui/Menus";
 import {
-  HiArrowDown,
   HiArrowDownOnSquare,
   HiArrowUpOnSquare,
   HiEye,
@@ -17,7 +16,6 @@ import {
 import { useNavigate } from "react-router-dom";
 import useCheckout from "../check-in-out/useCheckout";
 import { useDeleteBooking } from "./useDeleteBooking";
-import { de, is } from "date-fns/locale";
 import Modal from "../../ui/Modal";
 import ConfirmDelete from "../../ui/ConfirmDelete";
 

@@ -1,4 +1,4 @@
-import { useContext, useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 function useOutsideClick(handler, listenCapturing = true) {
   const ref = useRef();
